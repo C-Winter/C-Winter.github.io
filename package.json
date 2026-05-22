@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css:mini": "postcss source/styles.css -o styles.css",
+    "assets:copy": "cp source/*.svg .",
     "html:mini": "html-minifier --input-dir source --output-dir . --file-ext html --remove-comments --remove-empty-attributes --collapse-whitespace",
-    "go": "npm run html:mini && npm run css:mini"
+    "go": "npm run html:mini && npm run css:mini && npm run assets:copy"
   },
   "repository": {
     "type": "git",
