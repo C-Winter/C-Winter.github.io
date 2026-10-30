@@ -25,7 +25,7 @@
   "dependencies": {
     "cssnano": "^5.0.17",
     "html-minifier": "^4.0.0",
-    "postcss": "^8.4.6",
+    "postcss": "^8.5.32",
     "postcss-cli": "^9.1.0"
   },
   "devDependencies": {
