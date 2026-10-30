@@ -247,6 +247,12 @@ svg {
     line-height: 1.2;
 }
 
+.map img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .map__content {
     padding: 2rem;
 }
@@ -276,7 +282,9 @@ svg {
 }
 
 .contact__form-title {
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 
 .contact__header {
@@ -285,6 +293,7 @@ svg {
 }
 
 .contact__title {
+    margin-bottom: 0.5rem;
     font-size: 2rem;
     line-height: 1.2;
 }
@@ -510,7 +519,7 @@ body.thank {
         align-items: center;
     }
 
-    .map svg {
+    .map img {
         width: 50vw;
     }
 

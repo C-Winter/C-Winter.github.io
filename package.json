@@ -8,7 +8,9 @@
     "css:mini": "postcss source/styles.css -o styles.css",
     "assets:copy": "cp source/*.svg .",
     "html:mini": "html-minifier --input-dir source --output-dir . --file-ext html --remove-comments --remove-empty-attributes --collapse-whitespace",
-    "go": "npm run html:mini && npm run css:mini && npm run assets:copy"
+    "go": "npm run html:mini && npm run css:mini && npm run assets:copy",
+    "preview": "browser-sync start --server --files '*.html, *.css, *.svg' --no-notify",
+    "dev": "browser-sync start --server source --files 'source/**/*' --no-notify"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
     "html-minifier": "^4.0.0",
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4"
   }
 }
