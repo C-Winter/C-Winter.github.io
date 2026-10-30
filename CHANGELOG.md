@@ -2,9 +2,7 @@
 
 Versions mises en ligne de rachatourets.com, de la plus récente à la plus ancienne. Chaque version correspond à un tag git du même nom (voir le [README](README.md)).
 
-## À publier
-
-Commits prêts sur `master`, pas encore en ligne. Deviendra `vAAAA.MM.JJ` à la prochaine mise en ligne.
+## v2026.10.31 — 31/10/2026
 
 ### Corrigé
 - Affichage mobile : balise viewport réparée, carte de l'Europe adaptée à la largeur de l'écran
